@@ -1,4 +1,4 @@
-package com.lechos22j.pizzaapplicationtest.dto;
+package com.lechos22j.pizzaapplicationtest.dto.response;
 
 import java.util.List;
 
