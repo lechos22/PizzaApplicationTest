@@ -16,4 +16,11 @@ public class SizeEntity {
 
     @Column(name = "price")
     private BigDecimal price;
+
+    @Column(name = "pizza_id")
+    private Integer pizzaId;
+
+    @ManyToOne
+    @JoinColumn(name = "pizza_id", insertable = false, updatable = false)
+    private PizzaEntity pizza;
 }

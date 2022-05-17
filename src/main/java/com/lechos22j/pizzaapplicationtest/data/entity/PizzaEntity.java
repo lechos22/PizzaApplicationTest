@@ -1,6 +1,7 @@
 package com.lechos22j.pizzaapplicationtest.data.entity;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 @Table(name = "pizzas")
@@ -12,4 +13,7 @@ public class PizzaEntity {
 
     @Column(name = "name")
     private String name;
+
+    @OneToMany(mappedBy = "pizza", orphanRemoval = true)
+    private Set<SizeEntity> sizes;
 }
