@@ -5,7 +5,7 @@ import com.lechos22j.pizzaapplicationtest.type.PizzaSizeType;
 import java.math.BigDecimal;
 
 public class PizzaSizeDto {
-    // fields: Integer id, String name, BigDecimal price
+    // fields: Integer id, PizzaSizeType size, BigDecimal price
     private Integer id;
     private PizzaSizeType size;
     private BigDecimal price;
