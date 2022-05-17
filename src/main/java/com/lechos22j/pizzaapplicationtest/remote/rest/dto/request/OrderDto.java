@@ -1,5 +1,7 @@
 package com.lechos22j.pizzaapplicationtest.remote.rest.dto.request;
 
+import com.lechos22j.pizzaapplicationtest.remote.rest.dto.common.PersonDto;
+
 import java.util.List;
 
 public class OrderDto {
