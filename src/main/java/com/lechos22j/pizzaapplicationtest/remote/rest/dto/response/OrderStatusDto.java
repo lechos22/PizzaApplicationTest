@@ -1,7 +1,7 @@
-package com.lechos22j.pizzaapplicationtest.dto.response;
+package com.lechos22j.pizzaapplicationtest.remote.rest.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.lechos22j.pizzaapplicationtest.type.OrderStatusType;
+import com.lechos22j.pizzaapplicationtest.domain.model.OrderStatusType;
 
 import java.util.Date;
 

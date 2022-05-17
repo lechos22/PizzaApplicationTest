@@ -1,4 +1,4 @@
-package com.lechos22j.pizzaapplicationtest.dto.response;
+package com.lechos22j.pizzaapplicationtest.remote.rest.dto.response;
 
 public class TokenDto {
     // fields: String token

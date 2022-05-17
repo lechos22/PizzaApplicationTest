@@ -1,6 +1,6 @@
-package com.lechos22j.pizzaapplicationtest.dto.response;
+package com.lechos22j.pizzaapplicationtest.remote.rest.dto.response;
 
-import com.lechos22j.pizzaapplicationtest.type.PizzaSizeType;
+import com.lechos22j.pizzaapplicationtest.domain.model.PizzaSizeType;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package com.lechos22j.pizzaapplicationtest.dto.request;
+package com.lechos22j.pizzaapplicationtest.remote.rest.dto.request;
 
 public class PersonDto {
     // fields: String name, String phone, String address, Integer floor
